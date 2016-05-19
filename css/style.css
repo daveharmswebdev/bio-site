@@ -1,0 +1,41 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body, header, section, footer {
+	width: 50%;
+	min-width: 400px;
+	margin: 0 auto;
+}
+
+header,
+section,
+article,
+footer {
+	border: 1px dotted black;
+	padding: 0.5rem;
+}
+
+header {
+	height: 9rem;
+	position: fixed;
+	top: 0;
+	background-color: aqua;
+}
+
+section {
+	margin-top: 9rem;
+}
+
+ul {
+	margin: 0;;
+	padding: 0;
+}
+
+li {
+	margin: 0.5rem 0.5rem;
+	display: inline-block;
+	float: right;
+}
